@@ -42,7 +42,6 @@ public class PasswordUtils {
         Scanner scanObj = new Scanner(System.in);
         System.out.println("Enter the size of password: ");
         int size = scanObj.nextInt();  
-        System.out.println("Size of password is " + size);
         System.out.println("Needed password number: ");
         int neededPassword = scanObj.nextInt();  
 
